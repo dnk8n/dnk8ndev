@@ -1,5 +1,5 @@
-title = "johndoe"
-baseurl = "http://www.example.com"
+title = "Dean Kayton"
+baseurl = "https://blog.dnk8n.dev"
 languagecode = "en"
 defaultcontentlanguage = "en"
 theme = "hugo-coder"
@@ -8,108 +8,99 @@ canonifyurls = true
 pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-disqusShortname = "yourdiscussshortname"
+disqusShortname = ""
 
 [params]
-author = "John Doe"
-description = "John Doe's personal website"
-keywords = "blog,developer,personal"
-info = "Full Stack DevOps and Magician"
+author = "Dean Kayton"
 avatarurl = "images/avatar.jpg"
-footercontent = "Enter a text here."
-dateformat = "January 2, 2006"
-hideCredits = false
-hideCopyright = false
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
-rtl = false
 colorscheme = "light"
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+custom_css = []
+custom_js = []
+dateformat = "2006, January 2"
+description = "Focusing on a career in Reinforcement Learning"
+footercontent = "Continuously learning"
+hideCopyright = false
+hideCredits = false
+info = "Deliberately setting my intention"
+keywords = "blog,developer,personal,reinforcement-learning,AI,ML,RL,machine-learning,artificial-intelligence"
 maxSeeAlsoItems = 5
-custom_css = [ ]
-custom_js = [ ]
+rtl = false
 
-  [[params.social]]
-  name = "Github"
-  icon = "fab fa-github"
-  weight = 1
-  url = "https://github.com/johndoe/"
+[[params.social]]
+icon = "fab fa-github"
+name = "Github"
+url = "https://github.com/dnk8n/"
+weight = 1
 
-  [[params.social]]
-  name = "Gitlab"
-  icon = "fab fa-gitlab"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
+[[params.social]]
+icon = "fab fa-gitlab"
+name = "Gitlab"
+url = "https://gitlab.com/dnk8n/"
+weight = 2
 
-  [[params.social]]
-  name = "Twitter"
-  icon = "fab fa-twitter"
-  weight = 3
-  url = "https://twitter.com/johndoe/"
+[[params.social]]
+icon = "fab fa-twitter"
+name = "Twitter"
+url = "https://twitter.com/dnk8n/"
+weight = 3
 
-  [[params.social]]
-  name = "LinkedIn"
-  icon = "fab fa-linkedin"
-  weight = 4
-  url = "https://www.linkedin.com/in/johndoe/"
+[[params.social]]
+icon = "fab fa-linkedin"
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/dnk8n/"
+weight = 4
 
-  [[params.social]]
-  name = "Medium"
-  icon = "fab fa-medium"
-  weight = 5
-  url = "https://medium.com/@johndoe"
+[[params.social]]
+icon = "fab fa-medium"
+name = "Medium"
+url = "https://medium.com/@dnk8n"
+weight = 5
+
+[languages]
 
 [languages.en]
 languagename = "English"
 
+[languages.en.menu]
+
 [[languages.en.menu.main]]
+identifier = "About"
 name = "About"
 url = "about/"
 weight = 1
 
 [[languages.en.menu.main]]
+identifier = "Blog"
 name = "Blog"
 url = "posts/"
 weight = 2
 
 [[languages.en.menu.main]]
+identifier = "Projects"
 name = "Projects"
 url = "projects/"
 weight = 3
 
 [[languages.en.menu.main]]
+identifier = "Contact me"
 name = "Contact me"
 url = "contact/"
 weight = 5
 
 [languages.pt-br]
-languagename = "Português"
-title = "João Ninguém"
+languagename = ""
+title = ""
 
-  [languages.pt-br.params]
-  author = "João Ninguém"
-  info = "Full Stack DevOps e Mágico"
-  description = "Sítio pessoal de João Ninguém"
-  keywords = "blog,desenvolvedor,pessoal"
-  footercontent = "Coloque algum texto aqui."
+[languages.pt-br.menu]
+main = []
 
-[[languages.pt-br.menu.main]]
-name = "Sobre"
-url = "about/"
-weight = 1
-
-[[languages.pt-br.menu.main]]
-name = "Blog"
-url = "posts/"
-weight = 2
-
-[[languages.pt-br.menu.main]]
-name = "Projetos"
-url = "projects/"
-weight = 3
-
-[[languages.pt-br.menu.main]]
-name = "Contato"
-url = "contact/"
-weight = 5
+[languages.pt-br.params]
+author = ""
+description = ""
+footercontent = ""
+info = ""
+keywords = ""
 
 [taxonomies]
 category = "categories"
