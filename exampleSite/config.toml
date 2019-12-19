@@ -77,6 +77,13 @@ url = "posts/"
 weight = 2
 
 [[languages.en.menu.main]]
+identifier = "Series"
+name = "Series"
+url = "series/"
+weight = 1
+parent = "Blog"
+
+[[languages.en.menu.main]]
 identifier = "Projects"
 name = "Projects"
 url = "projects/"
