@@ -1,5 +1,5 @@
 title = "dnk8n"
-baseurl = "https://blog.dnk8n.dev"
+baseurl = ""
 languagecode = "en"
 defaultcontentlanguage = "en"
 theme = "hugo-coder"
