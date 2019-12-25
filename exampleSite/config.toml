@@ -91,7 +91,7 @@ weight = 4
 [[languages.en.menu.main]]
 identifier = "Projects"
 name = "Projects"
-url = "projects/"
+url = "series/projects/"
 weight = 5
 
 [[languages.en.menu.main]]
