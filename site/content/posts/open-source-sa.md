@@ -26,3 +26,12 @@ tags:
 | [Superbalist](https://superbalist.com)                                     | [Github](https://github.com/Superbalist)                                        | [Careers](https://superbalist.com/careers)                       |
 | [Thinkst](https://thinkst.com)                                             | [Gitub](https://github.com/thinkst)                                             |                                                                  |
 | [Vulekamali](https://vulekamali.gov.za/faq)                                | [Github](https://github.com/vulekamali)                                         |                                                                  |
+
+## Want to contribute?
+
+1. Fork repo, https://github.com/dnk8n/dnk8ndev
+1. Clone fork onto dev machine
+1. Edit file located at `site/content/posts/open-source-sa.md`
+1. Push changes to branch
+1. Create Pull Request (PR) of forked repo's branch to original repo's master
+1. Once PR is reviewed and Merged, changes will be visible on this page
