@@ -1,5 +1,5 @@
 ---
-title: 'A list of South African organisations who contribute to open-source [WIP]'
+title: 'A list of South African organisations who contribute to open-source'
 date: 2020-01-29T00:59:14.452Z
 slug: open-source-sa
 tags:
