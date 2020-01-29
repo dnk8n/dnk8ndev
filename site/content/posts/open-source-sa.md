@@ -35,3 +35,9 @@ tags:
 1. Push changes to branch
 1. Create Pull Request (PR) of forked repo's branch to original repo's master
 1. Once PR is reviewed and Merged, changes will be visible on this page
+
+## Additional contribution guidelines.
+
+1. Add new organisation in alphabetical order
+1. Specify https:// instead of http://
+1. Omit trailing slashes (/)
