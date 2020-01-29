@@ -20,3 +20,4 @@ tags:
 - [Netcash](https://netcash.co.za) [[Github](https://github.com/Netcash-ZA)]
 - [South African National Biodiversity Institute](https://www.sanbi.org) [[Github](https://github.com/SANBIBiodiversityforLife), [Careers](https://www.sanbi.org/jobs)]
 - [Code College](https://codecollege.co.za) [[Github](https://github.com/codecollegeza)]
+- [Invictus Capital](https://invictuscapital.com/) [[Github](https://github.com/invictuscapital), [Careers](https://www.linkedin.com/company/invictuscapital/jobs/)]
