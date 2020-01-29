@@ -6,8 +6,9 @@ tags:
   - open-source
 ---
 - [OpenUp](https://openup.org.za) [[Github](https://github.com/openupsa), [Careers](https://openup.org.za/careers.html)]
-- [Praekelt](https://www.praekelt.com) [[Github](https://github.com/praekelt), [Careers](mailto:careers@praekelt.com
+- [Praekelt (.com)](https://www.praekelt.com) [[Github](https://github.com/praekelt), [Careers](mailto:careers@praekelt.com
 )]
+- [Praekelt (.org)](https://www.praekelt.org/)[[Github](https://github.com/praekeltfoundation), [Careers](https://www.praekelt.org/careers)]
 - [Stone Three](https://www.stonethree.com) [[Github](https://github.com/stonethree)]
 - [Aerobotics](https://www.aerobotics.com) [[Github](https://github.com/Aerobotics), [Careers](https://aerobotics.breezy.hr)
 - [Luno](https://www.luno.com/) [[Github](https://github.com/luno), [Careers](https://www.luno.com/en/careers)]
