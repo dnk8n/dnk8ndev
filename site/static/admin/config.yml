@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: master
-media_folder: exampleSite/static/images
+media_folder: site/static/images
 public_folder: /images
 collections:
   - name: config
@@ -9,7 +9,7 @@ collections:
     files:
       - name: config
         label: Config
-        file: exampleSite/config.toml
+        file: site/config.toml
         fields:
           - widget: string
             name: title
@@ -328,7 +328,7 @@ collections:
                 required: false
   - name: basicpage
     label: Basic Pages
-    folder: exampleSite/content/
+    folder: site/content/
     create: true
     extension: md
     slug: '{{slug}}'
@@ -348,7 +348,7 @@ collections:
         hint: Page content
   - name: post
     label: Blog posts
-    folder: exampleSite/content/posts
+    folder: site/content/posts
     create: true
     extension: md
     slug: '{{slug}}'
