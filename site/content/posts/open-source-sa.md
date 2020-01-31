@@ -14,7 +14,7 @@ tags:
 | [Health Information Systems Programme](https://www.hisp.org)                                | [GitHub](https://github.com/HISPSA)                                                        | [Careers](https://www.hisp.org/index.php/hisp-careers)           |
 | [Invictus Capital](https://invictuscapital.com)                                             | [GitHub](https://github.com/invictuscapital)                                               | [Careers](https://www.linkedin.com/company/invictuscapital/jobs) |
 | [Luno](https://www.luno.com/)                                                               | [GitHub](https://github.com/luno)                                                          | [Careers](https://www.luno.com/en/careers)                       |
-| [MEST](https://meltwater.org)                                                               | [GitHub](https://githu`b.com/mestafrica)                                                   | [Careers](https://meltwater.org/join-mest/careers)               |
+| [MEST](https://meltwater.org)                                                               | [GitHub](https://github.com/mestafrica)                                                    | [Careers](https://meltwater.org/join-mest/careers)               |
 | [Netcash](https://netcash.co.za)                                                            | [GitHub](https://github.com/Netcash-ZA)                                                    |                                                                  |
 | [OpenUp](https://openup.org.za)                                                             | [GitHub](https://github.com/openupsa)                                                      | [Careers](https://openup.org.za/careers.html)                    |
 | [Praekelt (.com)](https://www.praekelt.com)                                                 | [GitHub](https://github.com/praekelt)                                                      | [Careers](mailto:careers@praekelt.com)                           |
@@ -32,7 +32,7 @@ tags:
 
 The easist way is to edit in browser.
 
-![See gif with instructions below.](static/images/easy-contrbute.gif)
+![See gif with instructions below.](/images/easy-contrbute.gif)
 
 1. Navigate https://github.com/dnk8n/dnk8ndev/blob/master/site/content/posts/open-source-sa.md
 1. Click on the pencil on the right
