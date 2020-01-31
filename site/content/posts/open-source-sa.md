@@ -34,11 +34,14 @@ The easist way is to edit in browser.
 
 ![See gif with instructions below.](/images/easy-contrbute.gif)
 
-1. Navigate https://github.com/dnk8n/dnk8ndev/blob/master/site/content/posts/open-source-sa.md
-1. Click on the pencil on the right
+1. Navigate to https://github.com/dnk8n/dnk8ndev/blob/master/site/content/posts/open-source-sa.md
+1. Click on the pencil on the right to edit page
 1. In view option, select `No wrap` under `Line wrap mode` (3rd dropdown from left to right)
 1. Edit accordingly
-1. Commit change within browser (It automagically creates a fork and PR on your behalf)
+1. Propose file change within browser (select `create a new branch for this commit and start a pull request` and it
+   automagically creates a fork and PR on your behalf)
+1. Create PR with just enough relevant information
+1. Once PR is reviewed and merged, changes will be visible on this page
 
 ## Alternatively
 
@@ -46,8 +49,8 @@ The easist way is to edit in browser.
 1. Clone fork onto dev machine
 1. Edit file located at `site/content/posts/open-source-sa.md`
 1. Push changes to branch
-1. Create Pull Request (PR) of forked repo's branch to original repo's master
-1. Once PR is reviewed and Merged, changes will be visible on this page
+1. Create Pull Request (PR) of forked repo's branch to original repo's master (include just enough relevant information)
+1. Once PR is reviewed and merged, changes will be visible on this page
 
 ## Additional contribution guidelines
 
