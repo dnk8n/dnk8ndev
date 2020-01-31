@@ -30,8 +30,9 @@ tags:
 
 ## Want to contribute?
 
-The easist way is to edit in browser. See gif with instructions below.
->>> Todo: Upload gif here <<<
+The easist way is to edit in browser.
+
+![See gif with instructions below.](static/images/easy-contrbute.gif)
 
 1. Navigate https://github.com/dnk8n/dnk8ndev/blob/master/site/content/posts/open-source-sa.md
 1. Click on the pencil on the right
