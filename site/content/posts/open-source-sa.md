@@ -30,6 +30,17 @@ tags:
 
 ## Want to contribute?
 
+The easist way is to edit in browser. See gif with instructions below.
+>>> Todo: Upload gif here <<<
+
+1. Navigate https://github.com/dnk8n/dnk8ndev/blob/master/site/content/posts/open-source-sa.md
+1. Click on the pencil on the right
+1. In view option, select `No wrap` under `Line wrap mode` (3rd dropdown from left to right)
+1. Edit accordingly
+1. Commit change within browser (It automagically creates a fork and PR on your behalf)
+
+## Alternatively
+
 1. Fork repo, https://github.com/dnk8n/dnk8ndev
 1. Clone fork onto dev machine
 1. Edit file located at `site/content/posts/open-source-sa.md`
@@ -37,7 +48,7 @@ tags:
 1. Create Pull Request (PR) of forked repo's branch to original repo's master
 1. Once PR is reviewed and Merged, changes will be visible on this page
 
-## Additional contribution guidelines.
+## Additional contribution guidelines
 
 1. Add new organisation in alphabetical order
 1. Specify https:// instead of http://
