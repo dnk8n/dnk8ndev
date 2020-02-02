@@ -103,7 +103,7 @@ weight = 5
 [[languages.en.menu.main]]
 identifier = "Download CV"
 name = "Download CV"
-url = "cv/"
+url = "https://gitlab.com/dnk8n/cv/-/jobs/420595289/artifacts/raw/cvs/generic/cv.pdf"
 
 [languages.pt-br]
 languagename = ""
