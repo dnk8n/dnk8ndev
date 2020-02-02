@@ -100,6 +100,11 @@ name = "Contact me"
 url = "contact/"
 weight = 5
 
+[[languages.en.menu.main]]
+identifier = "Download CV"
+name = "Download CV"
+url = "cv/"
+
 [languages.pt-br]
 languagename = ""
 title = ""
