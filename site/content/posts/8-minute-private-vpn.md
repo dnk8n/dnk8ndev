@@ -33,7 +33,7 @@ I show how to use my fork, but all the credit goes to the original repo, located
 **Steps:**
 
  - Create an IAM user with correct privileges (EC2 mainly) and an access key (under the security credentials tab of IAM)... ask questions in the comments if you don't manage to figure it out
-- Clone the repo `git clone https://github.com/dnk8n/openvpn-terraform-install` (in the video I use the ssh protocol which would need a github account, etc which is not necessary)
+ - Clone the repo `git clone https://github.com/dnk8n/openvpn-terraform-install` (in the video I use the ssh protocol which would need a github account, etc which is not necessary)
  - Copy the .envrc.tpl as a starting point. Change instance type to t2.micro for free tier (some regions don't have t2.micro, in which case t3.micro). Paste your access keys in here. Also, choose the region you want.
  - You can simply `source ./envrc`, however, I use Direnv so that every time I cd into this directory it automatically has my shell variables sourced. To activate `direnv allow ./envrc`. In future you will only need to do this again if you change variables.
 
