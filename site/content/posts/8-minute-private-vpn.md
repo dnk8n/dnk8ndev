@@ -89,14 +89,6 @@ You will see that a new .ovpn is created, named according to your inputs.
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/svMk6btsk2k?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Once ssh'd in, issue command `sudo ./openvpn-install.sh`. This will tell you that OpenVPN is already installed but additionally gives the option to add a new user. Follow the prompts.
-
-You will see that a new .ovpn is created, named according to your inputs.
-
-___
-
 <iframe width="437" height="246" src="https://www.youtube.com/embed/UA-AqAPY3QY?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Use scp to transfer the OpenVPN client config to your local machine, e.g `scp -i ~/.ssh/openvpn.pem ec2-user@ec2-x-x-x-x.compute-1.amazonaws.com:yourname.ovpn ~/Downloads/`
