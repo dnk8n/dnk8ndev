@@ -149,9 +149,15 @@ If you selected 'no' it would simply cancel the destroy process.
 
 ___
 
-Part 16 is coming tomorrow due to quota upload limits imposed :)
+<div class="youtube" data-id="JLwyYFR_Xq4"></div>
 
+And we're done. Everything is back to the way it was before you started. No trace!
+
+**Some things to consider:**
+
+- Although the infrastructure might cast under $0.06 as mentioned before, the bandwidth you use through the VPN will cost $0.15/GB. It is possible to route only certain traffic through the VPN. I will leave that up to you to figure out.
+
+- It is worth exploring the repositories and familiarizing yourself with the code to configure the VPN how you want to. We each have different needs, so out of the box, this won't be to everyone's taste. If you make a change and run `terraform apply` while there is an existing deployment, terraform will calculate what it needs to do in order to apply your changes. In this case, it will rerun the idempotent provisioning script, allowing your changes to be incorporated
 ___
 
-Hope you enjoyed. Please let me know in the youtube comments about any problems. You can also find me @dnk8n on most platforms in case you prefer.
-
+Hope you enjoyed the tutorial. Please let me know in the youtube comments about any problems or suggestions. You can also find me @dnk8n on most popular platforms in case you prefer.
