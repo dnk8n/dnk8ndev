@@ -14,7 +14,7 @@ categories:
 
 I show how to use my fork, but all the credit goes to the original repo, located at https://github.com/dumrauf/openvpn-terraform-install. I suggest that you look at this upstream project instead of mine. I made changes to suit me. I removed the wrapper scripts, took out some automation that I felt would be easier for collaborators to understand if they followed a couple manual steps (to add/revoke users). I also added .envrc.tpl for quick configuration (I use Direnv to maintain config per file directory)
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/ittv-1ya1tc?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="ittv-1ya1tc"></div>
 
 **This first video shows how to:**
 
@@ -39,49 +39,49 @@ I show how to use my fork, but all the credit goes to the original repo, located
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/hD1Jaqsvrn4?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="hD1Jaqsvrn4"></div>
 
 Run command `terraform init`. This installs tools required for the VPN deployment.
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/jk3b1TbHemI?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="jk3b1TbHemI"></div>
 
 Now that terraform is initialized, run `terraform apply`
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/jtGLCmo0DQc?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="jtGLCmo0DQc"></div>
 
 If you have a flaky internet connection like me an error could happen like shown here. Don't worry, terraform is idempotent. You can just run `terraform apply` again and it will calculate what needs doing the second time around so that there are no undesired consequences!
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/yf5LK85VtmQ?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="yf5LK85VtmQ"></div>
 
 Answer yes and the resources will be provisioned.
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/51pSCcnMuSw?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="51pSCcnMuSw"></div>
 
 Showing the provisioning of terraform apply command. OpenVPN gets installed all by automation. You can look through the code at https://github.com/angristan/openvpn-install/blob/master/openvpn-install.sh to see how the install script works.
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/3JdI6xJwqNI?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="3JdI6xJwqNI"></div>
 
 Just continuing to show the provisioning so that you get a sense of how long it takes!
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/7ooW3IFkFi4?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="7ooW3IFkFi4"></div>
 
 Provisioning completes and we get an output showing us the ssh command we can use to connect to our newly provisioned remote instance.
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/svMk6btsk2k?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="svMk6btsk2k"></div>
 
 Once ssh'd in, issue command `sudo ./openvpn-install.sh`. This will tell you that OpenVPN is already installed but additionally gives the option to add a new user. Follow the prompts.
 
@@ -89,7 +89,7 @@ You will see that a new .ovpn is created, named according to your inputs.
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/UA-AqAPY3QY?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="UA-AqAPY3QY"></div>
 
 Use scp to transfer the OpenVPN client config to your local machine, e.g `scp -i ~/.ssh/openvpn.pem ec2-user@ec2-x-x-x-x.compute-1.amazonaws.com:yourname.ovpn ~/Downloads/`
 
@@ -99,7 +99,7 @@ Once the OpenVPN client config is imported successfully, you can toggle on the V
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/8j-u8c9jTF0?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="8j-u8c9jTF0"></div>
 
 To test that the VPN is working, you can navigate to one of:
 
@@ -113,7 +113,7 @@ See that while the VPN is activated, your location matches that of the AWS regio
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/vqgkpjWJXV4?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="vqgkpjWJXV4"></div>
 
 Here follows a demonstration on how to revoke an OpenVPN client config. Note how after revoking it following the corresponding prompts of `sudo ./openvpn-install.sh`, the VPN config imported previously stops working (the lock on the top right of the taskbar fails to appear as it did before).
 
@@ -121,7 +121,7 @@ This is useful, for example, if a colleague leaves your company and you don't wi
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/bdsu4VljFfg?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="bdsu4VljFfg"></div>
 
 Here I show the process of destroying all the infrastructure you have created up until now. This stops all billing (except you do get charged for a full hour for your instance if it was up for less than an hour).
 
@@ -135,13 +135,13 @@ But in case you are a casual VPN user, you could use this system of temporary pr
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/_40cQo30Y-0?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="_40cQo30Y-0"></div>
 
 Continuing on from the last video just to give you a feeling of the `terraform destroy` process and how long it takes.
 
 ___
 
-<iframe width="437" height="246" src="https://www.youtube.com/embed/AaM-xsSFiaw?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="youtube" data-id="AaM-xsSFiaw"></div>
 
 You get a chance to answer yes or no at the prompt. Before the prompt, terraform calculates what it will do without affecting your infrastructure. After a 'yes' to the prompt, it carries out the pre-calculated actions.
 
