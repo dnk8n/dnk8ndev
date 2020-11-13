@@ -10,6 +10,8 @@ tags:
 categories:
   - DevOps
 ---
+# How to set up an OpenVPN server in under 8 minutes
+
 **Introduction:**
 
 I show how to use my fork, but all the credit goes to the original repo, located at https://github.com/dumrauf/openvpn-terraform-install. I suggest that you look at this upstream project instead of mine. I made changes to suit me. I removed the wrapper scripts, took out some automation that I felt would be easier for collaborators to understand if they followed a couple manual steps (to add/revoke users). I also added .envrc.tpl for quick configuration (I use Direnv to maintain config per file directory)
