@@ -12,6 +12,20 @@ categories:
 ---
 # How to set up an OpenVPN server in under 8 minutes
 
+### What this tutorial achieves
+
+By automation the following infrastructure is created for you in minutes:
+
+- VPC
+- Subnet
+- Internet Gateway
+- Route Table + Association
+- Security Groups
+- Keypair
+- Instance
+
+The instance is then provisioned with OpenVPN and an idempotent OpenVPN install/management script.
+
 **Introduction:**
 
 I show how to use my fork, but all the credit goes to the original repo, located at https://github.com/dumrauf/openvpn-terraform-install. I suggest that you look at this upstream project instead of mine. I made changes to suit me. I removed the wrapper scripts, took out some automation that I felt would be easier for collaborators to understand if they followed a couple manual steps (to add/revoke users). I also added .envrc.tpl for quick configuration (I use Direnv to maintain config per file directory)
@@ -160,6 +174,8 @@ And we're done. Everything is back to the way it was before you started. No trac
 - Although the infrastructure might cast under $0.06 as mentioned before, the bandwidth you use through the VPN will cost $0.15/GB. It is possible to route only certain traffic through the VPN. I will leave that up to you to figure out.
 
 - It is worth exploring the repositories and familiarizing yourself with the code to configure the VPN how you want to. We each have different needs, so out of the box, this won't be to everyone's taste. If you make a change and run `terraform apply` while there is an existing deployment, terraform will calculate what it needs to do in order to apply your changes. In this case, it will rerun the idempotent provisioning script, allowing your changes to be incorporated
+
+- To be able to connect with the rest of your AWS infrastructure you would need to connect the relevant VPCs to the newly provisioned one (by [VPC peering](https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html)).
 ___
 
 Hope you enjoyed the tutorial. Please let me know in the youtube comments about any problems or suggestions. You can also find me @dnk8n on most popular platforms in case you prefer.
