@@ -10,49 +10,11 @@ tags:
 categories:
   - DevOps
 ---
-<script>
-
-    /* Light YouTube Embeds by @labnol */
-    /* Web: http://labnol.org/?p=27941 */
-
-    document.addEventListener("DOMContentLoaded",
-        function() {
-            var div, n,
-                v = document.getElementsByClassName("youtube-player");
-            for (n = 0; n < v.length; n++) {
-                div = document.createElement("div");
-                div.setAttribute("data-id", v[n].dataset.id);
-                div.innerHTML = labnolThumb(v[n].dataset.id);
-                div.onclick = labnolIframe;
-                v[n].appendChild(div);
-            }
-        });
-
-    function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-            play = '<div class="play"></div>';
-        return thumb.replace("ID", id) + play;
-    }
-
-    function labnolIframe() {
-        var iframe = document.createElement("iframe");
-        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-        iframe.setAttribute("frameborder", "0");
-        iframe.setAttribute("allowfullscreen", "1");
-        this.parentNode.replaceChild(iframe, this);
-    }
-
-</script>
-
-# How to create your own private OpenVPN server in AWS in under 8 minutes
-
 **Introduction:**
 
 I show how to use my fork, but all the credit goes to the original repo, located at https://github.com/dumrauf/openvpn-terraform-install. I suggest that you look at this upstream project instead of mine. I made changes to suit me. I removed the wrapper scripts, took out some automation that I felt would be easier for collaborators to understand if they followed a couple manual steps (to add/revoke users). I also added .envrc.tpl for quick configuration (I use Direnv to maintain config per file directory)
 
-<div class="youtube-player" data-id="ittv-1ya1tc"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/ittv-1ya1tc?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **This first video shows how to:**
 
@@ -77,57 +39,49 @@ I show how to use my fork, but all the credit goes to the original repo, located
 
 ___
 
-<div class="youtube-player" data-id="hD1Jaqsvrn4"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/hD1Jaqsvrn4?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Run command `terraform init`. This installs tools required for the VPN deployment.
 
 ___
 
-<div class="youtube-player" data-id="jk3b1TbHemI"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/jk3b1TbHemI?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Now that terraform is initialized, run `terraform apply`
 
 ___
 
-<div class="youtube-player" data-id="jtGLCmo0DQc"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/jtGLCmo0DQc?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If you have a flaky internet connection like me an error could happen like shown here. Don't worry, terraform is idempotent. You can just run `terraform apply` again and it will calculate what needs doing the second time around so that there are no undesired consequences!
 
 ___
 
-<div class="youtube-player" data-id="yf5LK85VtmQ"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/yf5LK85VtmQ?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Answer yes and the resources will be provisioned.
 
 ___
 
-<div class="youtube-player" data-id="51pSCcnMuSw"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/51pSCcnMuSw?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Showing the provisioning of terraform apply command. OpenVPN gets installed all by automation. You can look through the code at https://github.com/angristan/openvpn-install/blob/master/openvpn-install.sh to see how the install script works.
 
 ___
 
-<div class="youtube-player" data-id="3JdI6xJwqNI"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/3JdI6xJwqNI?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Just continuing to show the provisioning so that you get a sense of how long it takes!
 
 ___
 
-<div class="youtube-player" data-id="7ooW3IFkFi4"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/7ooW3IFkFi4?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Provisioning completes and we get an output showing us the ssh command we can use to connect to our newly provisioned remote instance.
 
 ___
 
-<div class="youtube-player" data-id="svMk6btsk2k"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/svMk6btsk2k?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Once ssh'd in, issue command `sudo ./openvpn-install.sh`. This will tell you that OpenVPN is already installed but additionally gives the option to add a new user. Follow the prompts.
 
@@ -135,8 +89,7 @@ You will see that a new .ovpn is created, named according to your inputs.
 
 ___
 
-<div class="youtube-player" data-id="UA-AqAPY3QY"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/UA-AqAPY3QY?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Use scp to transfer the OpenVPN client config to your local machine, e.g `scp -i ~/.ssh/openvpn.pem ec2-user@ec2-x-x-x-x.compute-1.amazonaws.com:yourname.ovpn ~/Downloads/`
 
@@ -146,8 +99,7 @@ Once the OpenVPN client config is imported successfully, you can toggle on the V
 
 ___
 
-<div class="youtube-player" data-id="8j-u8c9jTF0"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/8j-u8c9jTF0?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 To test that the VPN is working, you can navigate to one of:
 
@@ -161,8 +113,7 @@ See that while the VPN is activated, your location matches that of the AWS regio
 
 ___
 
-<div class="youtube-player" data-id="vqgkpjWJXV4"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/vqgkpjWJXV4?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here follows a demonstration on how to revoke an OpenVPN client config. Note how after revoking it following the corresponding prompts of `sudo ./openvpn-install.sh`, the VPN config imported previously stops working (the lock on the top right of the taskbar fails to appear as it did before).
 
@@ -170,8 +121,7 @@ This is useful, for example, if a colleague leaves your company and you don't wi
 
 ___
 
-<div class="youtube-player" data-id="bdsu4VljFfg"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/bdsu4VljFfg?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Here I show the process of destroying all the infrastructure you have created up until now. This stops all billing (except you do get charged for a full hour for your instance if it was up for less than an hour).
 
@@ -185,15 +135,13 @@ But in case you are a casual VPN user, you could use this system of temporary pr
 
 ___
 
-<div class="youtube-player" data-id="_40cQo30Y-0"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/_40cQo30Y-0?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Continuing on from the last video just to give you a feeling of the `terraform destroy` process and how long it takes.
 
 ___
 
-<div class="youtube-player" data-id="AaM-xsSFiaw"></div>
-
+<iframe width="437" height="246" src="https://www.youtube.com/embed/AaM-xsSFiaw?list=PLvvmwjQ_mfY6aENXDRJn0VH6UU0OAFNm6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You get a chance to answer yes or no at the prompt. Before the prompt, terraform calculates what it will do without affecting your infrastructure. After a 'yes' to the prompt, it carries out the pre-calculated actions.
 
@@ -207,61 +155,3 @@ ___
 
 Hope you enjoyed. Please let me know in the youtube comments about any problems. You can also find me @dnk8n on most platforms in case you prefer.
 
-(setq markdown-xhtml-header-content
-"<style>
-    .youtube-player {
-        position: relative;
-        padding-bottom: 56.23%;
-        /* Use 75% for 4:3 videos */
-        height: 0;
-        overflow: hidden;
-        max-width: 100%;
-        background: #000;
-        margin: 5px;
-    }
-
-    .youtube-player iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 100;
-        background: transparent;
-    }
-
-    .youtube-player img {
-        bottom: 0;
-        display: block;
-        left: 0;
-        margin: auto;
-        max-width: 100%;
-        width: 100%;
-        position: absolute;
-        right: 0;
-        top: 0;
-        border: none;
-        height: auto;
-        cursor: pointer;
-        -webkit-transition: .4s all;
-        -moz-transition: .4s all;
-        transition: .4s all;
-    }
-
-    .youtube-player img:hover {
-        -webkit-filter: brightness(75%);
-    }
-
-    .youtube-player .play {
-        height: 72px;
-        width: 72px;
-        left: 50%;
-        top: 50%;
-        margin-left: -36px;
-        margin-top: -36px;
-        position: absolute;
-        background: url("//i.imgur.com/TxzC70f.png") no-repeat;
-        cursor: pointer;
-    }
-
-</style>")
