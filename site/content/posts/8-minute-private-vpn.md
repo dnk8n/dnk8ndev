@@ -10,7 +10,7 @@ tags:
 categories:
   - DevOps
 ---
-# How to set up an OpenVPN server in under 8 minutes
+# How to set up a Free and Private OpenVPN server in under 8 minutes!
 
 ### What this tutorial achieves
 
