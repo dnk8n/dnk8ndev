@@ -1,5 +1,5 @@
 ---
-title: 'A list of South African organisations who contribute to open-source'
+title: A list of South African organisations who contribute to open-source
 date: 2020-01-29T00:59:14.452Z
 slug: open-source-sa
 tags:
@@ -13,6 +13,7 @@ tags:
 | [Entelect](https://www.entelect.co.za)                                                      | [GitHub](https://github.com/entelect)                                                      | [Careers](https://culture.entelect.co.za)                        |
 | [Code for Africa](https://codeforafrica.org)                                                | [GitHub](https://github.com/CodeForAfrica)                                                 | [Careers](https://opportunities.codeforafrica.org)               |
 | [FEDSA](https://www.fedsa.org)                                                              | [GitHub](https://github.com/fedsa)                                                         |                                                                  |
+| [Flanksource](https://www.flanksource.com)                                                              | [GitHub](https://github.com/flanksource)                                                         | [Careers](https://www.flanksource.com/careers)                   |
 | [Health Information Systems Programme](https://www.hisp.org)                                | [GitHub](https://github.com/HISPSA)                                                        | [Careers](https://www.hisp.org/index.php/hisp-careers)           |
 | [Invictus Capital](https://invictuscapital.com)                                             | [GitHub](https://github.com/invictuscapital)                                               | [Careers](https://www.linkedin.com/company/invictuscapital/jobs) |
 | [Lumkani](https://lumkani.com)                                                              | [GitHub](https://github.com/Lumkani)                                                       | [Careers](https://lumkani-jobs.netlify.com)                      |
