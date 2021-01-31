@@ -11,21 +11,21 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = ""
 
 [params]
-author = "Dean Kayton"
-avatarurl = "images/avatar.jpg"
-colorscheme = "light"
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
-custom_css = ["https://toolbox.dnk8n.dev/css/yt.css"]
-custom_js = ["https://toolbox.dnk8n.dev/js/yt.js"]
-dateformat = "2006, January 2"
-description = "Focusing on a career in Reinforcement Learning"
-footercontent = "Continuously learning"
 hideCopyright = false
-hideCredits = false
-info = "Deliberately setting my intention"
-keywords = "blog,developer,personal,reinforcement-learning,AI,ML,RL,machine-learning,artificial-intelligence"
+dateformat = "2006, January 2"
+colorscheme = "light"
 maxSeeAlsoItems = 5
 rtl = false
+keywords = "blog,developer,personal,reinforcement-learning,AI,ML,RL,machine-learning,artificial-intelligence"
+author = "Dean Kayton"
+info = "Deliberately setting my intention"
+custom_css = ["https://toolbox.dnk8n.dev/css/yt.css"]
+avatarurl = "images/avatar.jpg"
+custom_js = ["https://toolbox.dnk8n.dev/js/yt.js"]
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+hideCredits = false
+description = "Focusing on a career in Reinforcement Learning"
+footercontent = "Continuously learning"
 
 [[params.social]]
 icon = "fab fa-github"
@@ -103,7 +103,7 @@ weight = 5
 [[languages.en.menu.main]]
 identifier = "CV"
 name = "CV"
-url = "https://gitlab.com/dnk8n/cv/-/jobs/436854977/artifacts/file/cvs/generic/cv_dean-kayton_generic_2020-02-13.pdf"
+url = "https://gitlab.com/dnk8n/cv/-/jobs/808781201/artifacts/browse/cvs/generic/"
 
 [languages.pt-br]
 languagename = ""
