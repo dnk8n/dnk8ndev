@@ -103,7 +103,7 @@ weight = 5
 [[languages.en.menu.main]]
 identifier = "CV"
 name = "CV"
-url = "https://gitlab.com/dnk8n/cv/-/jobs/808781201/artifacts/browse/cvs/generic/"
+url = "https://gitlab.com/dnk8n/cv/-/jobs/808781201/artifacts/file/cvs/generic/cv_dean-kayton_generic_2020-10-23.pdf"
 
 [languages.pt-br]
 languagename = ""
